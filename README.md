@@ -25,7 +25,9 @@ and the ability to translate between them with minimal effort.**
 - [x] **addBorder**
     - variable string lengths allowed
     - border is space-padded for a cleaner look
-- [ ] addTwoDigits
+- [x] **addTwoDigits**
+    - allows passing an arbitrary number of digits instead of two
+    - can also accept a string of valid digits
 - [ ] adjacentElementsProduct
 - [ ] allLongestStrings
 - [ ] almostIncreasingSequence
