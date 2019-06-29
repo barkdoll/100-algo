@@ -1,14 +1,13 @@
 
-
-def add(a, b):
+def add(a, b) -> int:
     return a + b
 
 print(add(1, 2))
 print(add(3, 2))
 
 
-def total(*args: int) -> int: 
+def total(*args: int) -> int:
     return sum(args)
 
-print(total(1,2,3,4,5))
-print(total(2,3))
+print(total(1, 2, 3, 4, 5))
+print(total(2, 3))
