@@ -4,18 +4,17 @@
 
 Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-challenge/).
 
+## I created this repository to demonstrate the following: 
+    - my competency in core development concepts regardless of the programming language 
+    - my ability to write in multiple programming languages and to translate between them with minimal effort
+
 ## What makes my solutions different
 
 - I create two solutions for each challenge:
     - both a Typescript solution as the course intends
     - the equivalent solution in Python
 - I occasionally add extra features to increase 
-    the flexibility and/or feature set of an algorithm.
-
-
-
-**This is to demonstrate my competency in multiple languages 
-and the ability to translate between them with minimal effort.**
+    the flexibility and/or feature set of an algorithm
 
 ## Challenge checklist:
 \* **Bolded** solutions contain added flexibility/features, which are listed directly below it.
