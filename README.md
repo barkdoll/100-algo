@@ -8,7 +8,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 
 - I create two solutions for each challenge:
     - both a Typescript solution as the course intends
-    - the equivocal solution in Python
+    - the equivalent solution in Python
 - I occasionally add extra features to increase 
     the flexibility and/or feature set of an algorithm.
 
