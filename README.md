@@ -5,8 +5,8 @@
 Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-challenge/).
 
 ## I created this repository to demonstrate the following: 
-    - my competency in core development concepts regardless of the programming language 
-    - my ability to write in multiple programming languages and to translate between them with minimal effort
+- my competency in core development concepts regardless of the programming language 
+- my ability to write in multiple programming languages and to translate between them with minimal effort
 
 ## What makes my solutions different
 
