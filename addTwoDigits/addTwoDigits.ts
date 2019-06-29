@@ -2,8 +2,9 @@
 const addTwoDigits = (n: string|number): number => (
 	n.toString()
 		.split('')
-		.map(dig => parseInt(dig))
-		.reduce((all, x) => all + x))
+		.reduce( (all, digit) => (
+			all + parseInt(digit)), 0) 
+)
 
 
 console.time('addTwoDigits x4');
