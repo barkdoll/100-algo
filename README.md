@@ -1,6 +1,6 @@
 
 
-# 100 Algorithms in TypeScript (ES6+ JavaScript) and Python
+# 100 Algorithms in TypeScript (ES6+ JavaScript) & Python
 
 Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-challenge/).
 
