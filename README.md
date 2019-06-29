@@ -1,6 +1,6 @@
 
 
-# 100 Algorithms in Typescript (strongly-typed ES6 JavaScript) and Python
+# 100 Algorithms in TypeScript (ES6+ JavaScript) and Python
 
 Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-challenge/).
 
@@ -8,7 +8,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 
 - I create two solutions for each challenge:
     - both a Typescript solution as the course intends
-    - and its equivolcal solution in Python
+    - the equivocal solution in Python
 - I occasionally add extra features to increase 
     the flexibility and/or feature set of an algorithm.
 
@@ -18,13 +18,13 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 and the ability to translate between them with minimal effort.**
 
 ## Challenge checklist:
-**Bolded** solutions contain added flexibility/features, which are listed directly below it.
+\* **Bolded** solutions contain added flexibility/features, which are listed directly below it.
 
 - [x] absoluteValuesSumMinization
 - [x] add
 - [x] **addBorder**
     - variable string lengths allowed
-    - border is padded with spacing for cleaner look
+    - border is space-padded for a cleaner look
 - [ ] addTwoDigits
 - [ ] adjacentElementsProduct
 - [ ] allLongestStrings
