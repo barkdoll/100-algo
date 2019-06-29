@@ -4,18 +4,27 @@
 
 Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-challenge/).
 
-### What makes my solutions different
+## What makes my solutions different
 
-I created solutions in two languages. Both typescript as the course intends, and the equivolcal solution in Python. 
+- I create two solutions for each challenge:
+    - both a Typescript solution as the course intends
+    - and its equivolcal solution in Python
+- I occasionally add extra features to increase 
+    the flexibility and/or feature set of an algorithm.
+
+
 
 **This is to demonstrate my competency in multiple languages 
 and the ability to translate between them with minimal effort.**
 
 ## Challenge checklist:
+**Bolded** solutions contain added flexibility/features, which are listed directly below it.
 
 - [x] absoluteValuesSumMinization
 - [x] add
-- [x] addBorder
+- [x] **addBorder**
+    - variable string lengths allowed
+    - border is padded with spacing for cleaner look
 - [ ] addTwoDigits
 - [ ] adjacentElementsProduct
 - [ ] allLongestStrings
