@@ -1,4 +1,4 @@
-function absoluteValuesSumMinimization(a: number[]): number {
+const absoluteValuesSumMinimization = (a: number[]): number => {
     const isEven = a.length % 2 === 0;
     
     const targetIndex = isEven 
@@ -8,7 +8,12 @@ function absoluteValuesSumMinimization(a: number[]): number {
     return a[targetIndex];
 }
 
+
+console.time('absoluteValuesSumMinimization x4');
+
 console.log(absoluteValuesSumMinimization([2, 4, 7]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6]));
 console.log(absoluteValuesSumMinimization([2, 4, 7, 6, 6, 8]));
+
+console.timeEnd('absoluteValuesSumMinimization x4');

@@ -1,4 +1,4 @@
-function addBorder(picture: string[]): string[] {
+const addBorder = (picture: string[]): string[] => {
 
 	const longest = picture.reduce( 
         (a, b) => a.length > b.length ? a : b ).length;
@@ -15,6 +15,8 @@ function addBorder(picture: string[]): string[] {
 }
 
 
+console.time('addBorder');
+
 console.log(addBorder(['abc', 'ded']).join('\n'));
 
 console.log(addBorder([
@@ -26,3 +28,5 @@ console.log(addBorder([
 
 console.log(
 	addBorder(['Eat', 'mor', 'chikin']).join('\n'));
+
+console.timeEnd('addBorder');
