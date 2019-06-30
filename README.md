@@ -27,8 +27,8 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] **addTwoDigits**
     - allows passing an arbitrary number of digits instead of two
     - can also accept a string of valid digits
-- [ ] adjacentElementsProduct
-- [ ] allLongestStrings
+- [x] adjacentElementsProduct
+- [x] allLongestStrings
 - [ ] almostIncreasingSequence
 - [ ] alphabetSubSequence
 - [ ] alphabeticShift
