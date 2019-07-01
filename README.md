@@ -30,8 +30,8 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] adjacentElementsProduct
 - [x] allLongestStrings
 - [x] almostIncreasingSequence
+- [x] alphabeticShift
 - [ ] alphabetSubSequence
-- [ ] alphabeticShift
 - [ ] alternatingSums
 - [ ] areEquallyStrong
 - [ ] areSimilar

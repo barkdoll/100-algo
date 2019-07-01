@@ -1,4 +1,4 @@
-function almostIncreasingSequence(sequence: number[]): boolean {
+const almostIncreasingSequence = (sequence: number[]): boolean => {
 
 	const decreases = sequence.reduce( (gatherer, curr, currIdx) => (
 			sequence[currIdx+1] < curr 
