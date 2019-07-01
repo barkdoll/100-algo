@@ -32,7 +32,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] almostIncreasingSequence
 - [x] alphabeticShift
 - [x] alphabetSubSequence
-- [ ] alternatingSums
+- [x] alternatingSums
 - [ ] areEquallyStrong
 - [ ] areSimilar
 - [ ] arrayChange

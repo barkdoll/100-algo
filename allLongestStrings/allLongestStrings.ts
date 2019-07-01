@@ -13,7 +13,7 @@ const allLongestStrings = (inputArray: string[]): string[] => (
 	), [])
 );
 
-const inputs: [string[]] = [
+const inputs: string[][] = [
 	['aba', 'aa', 'ad', 'vcd', 'aba'],
 	['vvx', 'ikl', 'kpp', 'md', 'kjd'],
 	['asdfad', 'sskl', 'irojgoe', 'irjeioj', 'gojkfd'],
