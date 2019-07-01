@@ -29,7 +29,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
     - can also accept a string of valid digits
 - [x] adjacentElementsProduct
 - [x] allLongestStrings
-- [ ] almostIncreasingSequence
+- [x] almostIncreasingSequence
 - [ ] alphabetSubSequence
 - [ ] alphabeticShift
 - [ ] alternatingSums
