@@ -11,20 +11,19 @@ const allLongestStrings = (inputArray: string[]): string[] => (
 				: [ curr ] // current is longest 
 			) 
 	), [])
-)
+);
 
-
-console.time('allLongestStrings x4');
-
-const inputs = [
+const inputs: [string[]] = [
 	['aba', 'aa', 'ad', 'vcd', 'aba'],
 	['vvx', 'ikl', 'kpp', 'md', 'kjd'],
 	['asdfad', 'sskl', 'irojgoe', 'irjeioj', 'gojkfd'],
 	['r', 'qepotwe', 'rejwgo', 'd', 'optr'],
 	['plsdfk', 'njbjowiq', 'mweobupo', 'jeoiwzxf', 'dv']
-]
+];
+
+console.time('allLongestStrings x4');
 
 inputs.forEach( inp => { 
-	console.log(`${inp} -> ${allLongestStrings(inp)}`) })
+	console.log(`${inp} -> ${allLongestStrings(inp)}`); })
 
 console.timeEnd('allLongestStrings x4');
