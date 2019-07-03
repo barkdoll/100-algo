@@ -35,7 +35,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] alternatingSums
 - [x] areEquallyStrong
 - [x] areSimilar
-- [ ] arrayChange
+- [x] arrayChange
 - [ ] arrayConversion
 - [ ] arrayMaxConsecutiveSum
 - [ ] arrayMaximalAdjacentDifference
