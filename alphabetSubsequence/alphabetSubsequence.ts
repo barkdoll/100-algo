@@ -16,6 +16,6 @@ const inputs: string[] = ['zab', 'effg', 'cdce', 'ace', 'bxz'];
 console.time('alphabetSubsequence x5');
 
 inputs.forEach( inp => {
-	console.log(`${inp} -> ${alphabetSubsequence(inp)}`); })
+	console.log(`${inp} -> ${(<any>alphabetSubsequence)(inp)}`); })
 
 console.timeEnd('alphabetSubsequence x5');

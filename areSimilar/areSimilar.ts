@@ -29,7 +29,7 @@ console.time('areSimilar x3');
 
 inputs.forEach(inp => {
 	console.log(
-		`${inp.map(thing => `[${thing}]`)} -> ${areSimilar(...inp)}`); 
+		`${inp.map(thing => `[${thing}]`)} -> ${(<any>areSimilar)(...inp)}`); 
 });
 
 console.timeEnd('areSimilar x3');

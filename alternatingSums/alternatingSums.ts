@@ -14,6 +14,6 @@ const inputs: number[][] = [
 console.time('alternatingSums x3');
 
 inputs.forEach(inp => {
-	console.log(`${inp} -> ${alternatingSums(inp)}`); });
+	console.log(`${inp} -> ${(<any>alternatingSums)(inp)}`); });
 
 console.timeEnd('alternatingSums x3');

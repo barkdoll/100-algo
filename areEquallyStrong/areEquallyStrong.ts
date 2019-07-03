@@ -21,6 +21,6 @@ const inputs = [
 console.time('areEquallyStrong x3');
 
 inputs.forEach( inp => { 
-	console.log(`${inp} -> ${areEquallyStrong(...inp)}`); });
+	console.log(`${inp} -> ${(<any>areEquallyStrong)(...inp)}`); });
 
 console.timeEnd('areEquallyStrong x3');
