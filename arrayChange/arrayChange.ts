@@ -1,5 +1,6 @@
-const arrayChange = (inputArray: number[]): number => {
-	return inputArray.reduce((increments, x, i) => {
+
+const arrayChange = (inputArray: number[]): number => inputArray.reduce(
+	(increments, x, i) => {
 		if ( i === 0 )
 		{
 			return increments;
@@ -13,8 +14,6 @@ const arrayChange = (inputArray: number[]): number => {
 
 		return increments;
 	}, 0);
-}
-
 
 
 const inputs: number[][] = [[1, 1, 1], [1, 3, 0], [3, 9, 5]];
