@@ -34,7 +34,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] alphabetSubSequence
 - [x] alternatingSums
 - [x] areEquallyStrong
-- [ ] areSimilar
+- [x] areSimilar
 - [ ] arrayChange
 - [ ] arrayConversion
 - [ ] arrayMaxConsecutiveSum
