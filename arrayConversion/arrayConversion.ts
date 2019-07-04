@@ -1,13 +1,15 @@
 const arrayConversion = (inputArray: number[]): number => {
-	const sum = (a, b): number => a + b;
-	const product = (a, b): number => a * b;
-	const alternate = (bundle: number[], iteration: number = 0) => {
+
+	const sum = (a: number, b: number): number => a + b;
+	const product = (a: number, b: number): number => a * b;
+
+	const alternate = (bundle: number[], iteration: number = 0): number => {
 		if ( bundle.length === 1 )
 		{
 			return bundle[0];
 		}
 
-		const processed = iteration % 2 === 0
+		const processed: number[] = iteration % 2 === 0
 			? bundle.reduce( (gatherer, x, i) => i % 2 === 0
 				? [...gatherer, sum(x, bundle[i+1]) ]
 				: gatherer, [] )
