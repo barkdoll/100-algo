@@ -4,7 +4,7 @@ const arrayConversion = (inputArray: number[]): number => {
 	const alternate = (bundle: number[], iteration: number = 0) => {
 		if ( bundle.length === 1 )
 		{
-			return bundle.pop();
+			return bundle[0];
 		}
 
 		const processed = iteration % 2 === 0
