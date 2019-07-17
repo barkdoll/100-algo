@@ -38,7 +38,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] arrayChange
 - [x] arrayConversion
 - [x] arrayMaxConsecutiveSum
-- [ ] arrayMaximalAdjacentDifference
+- [x] arrayMaximalAdjacentDifference
 - [ ] arrayPreviousLess
 - [ ] arrayReplace
 - [ ] avoidObstacles
