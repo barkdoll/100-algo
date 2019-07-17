@@ -1,18 +1,19 @@
 const arrayMaximalAdjacentDifference = (
 	(inputArray: number[]): number => inputArray.reduce(
-	(highest, curr, idx) => {
+		(highest, curr, idx) => {
 
-		const next = inputArray[idx+1];
+			const next = inputArray[idx+1];
 
-		if ( next === undefined )
-		{
-			return highest;
+			if ( next === undefined )
+			{
+				return highest;
+			}
+
+			const evalDiff = Math.abs(curr - next);
+
+			return evalDiff > highest ? evalDiff : highest;
 		}
-
-		const evalDiff = Math.abs(curr - next);
-
-		return evalDiff > highest ? evalDiff : highest;
-	}, 0)
+		, 0 )
 );
 
 
