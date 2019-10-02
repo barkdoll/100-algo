@@ -1,19 +1,3 @@
-# const arrayMaximalAdjacentDifference = (
-# 	(inputArray: number[]): number => inputArray.reduce(
-# 		(highest, curr, idx) => {
-
-# 			const next = inputArray[idx+1]
-
-# 			if ( next === undefined )
-# 			{
-# 				return highest
-# 			}
-
-# 			const evalDiff = Math.abs(curr - next)
-
-# 			return evalDiff > highest ? evalDiff : highest
-# 		}
-# 		, 0 )
 
 from typing import List
 
