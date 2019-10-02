@@ -39,7 +39,7 @@ Derived from [Dylan's 100 Algo Course](https://www.udemy.com/100-algorithms-chal
 - [x] arrayConversion
 - [x] arrayMaxConsecutiveSum
 - [x] arrayMaximalAdjacentDifference
-- [ ] arrayPreviousLess
+- [x] arrayPreviousLess
 - [ ] arrayReplace
 - [ ] avoidObstacles
 - [ ] bishopAndPawn
